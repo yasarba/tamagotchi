@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="game container">
         <div class="obito">
-            <img class="obito-image" src="Schermafbeelding 2025-01-17 102416.png" alt="100" width="100" >
-            <h1 class="message"> </h1>
-
+            <img class="obito-image" id="obito-image" src="Schermafbeelding 2025-01-17 102416.png" alt="100" width="100">
+            <h1 class="message" id="message"> </h1>
+            <p id="message2"> </p>
         </div>
-         </div>
-    <div class="stats">
-        <p>honger<span id="honger"> 80%</span></p>
-        <p>slaap<span id="slaap">80% </span></p>
-        <p>plezier<span id="plezier">80% </span></p>
     </div>
-</div>
+    <div class="stats">
+        <p>honger: <span id="honger">80%</span></p>
+        <p>slaap: <span id="slaap">80%</span></p>
+        <p>plezier: <span id="plezier">80%</span></p>
+    </div>
 
-<div class="actions">
+    <div class="actions">
         <button onclick="eten()">eten</button>
         <button onclick="slapen()">slapen</button>
         <button onclick="verhoog_plezier()">plezier</button>
-      </div>
-   
-  <script src="main.js"></script>
-    
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
